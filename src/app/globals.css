@@ -1,0 +1,68 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-cream: #f6f1e8;
+  --color-ink: #1f2223;
+  --color-muted: #5c6468;
+  --color-line: #e5dccd;
+  --color-gold: #b88746;
+  --color-white: #ffffff;
+}
+
+* {
+  border-color: var(--color-line);
+}
+
+html,
+body {
+  min-height: 100%;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-ink);
+  font-family: "Avenir Next", Avenir, "Segoe UI", system-ui, sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: ui-serif, "Iowan Old Style", "Palatino Linotype", Palatino, serif;
+  letter-spacing: -0.02em;
+  color: var(--color-ink);
+}
+
+::selection {
+  background: rgba(184, 135, 70, 0.24);
+  color: var(--color-ink);
+}
+
+@layer components {
+  .section-eyebrow {
+    @apply text-xs font-semibold uppercase tracking-[0.16em] text-gold;
+  }
+
+  .section-title {
+    @apply mt-3 text-3xl font-semibold leading-tight text-ink sm:text-4xl;
+  }
+
+  .section-subtitle {
+    @apply mt-4 max-w-3xl text-base leading-relaxed text-muted sm:text-lg;
+  }
+
+  .surface-card {
+    @apply rounded-3xl border border-line bg-white shadow-card;
+  }
+
+  .cta-primary {
+    @apply inline-flex items-center justify-center rounded-full border border-transparent bg-ink px-6 py-3 text-sm font-semibold text-white transition hover:-translate-y-0.5 hover:bg-black;
+  }
+
+  .cta-secondary {
+    @apply inline-flex items-center justify-center rounded-full border border-line bg-transparent px-6 py-3 text-sm font-semibold text-ink transition hover:-translate-y-0.5 hover:border-ink;
+  }
+}

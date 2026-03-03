@@ -1,0 +1,9 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">ClarityRX3</title>
+  <desc id="desc">Healthcare Intelligence. Multiplied.</desc>
+  <rect width="1200" height="630" fill="#F6F1E8"/>
+  <rect x="60" y="60" width="1080" height="510" rx="28" fill="#FFFFFF" stroke="#E5DCCD"/>
+  <text x="120" y="230" fill="#1F2223" font-family="Georgia, serif" font-size="74" font-weight="700">ClarityRX3</text>
+  <text x="120" y="300" fill="#B88746" font-family="Arial, sans-serif" font-size="36">Healthcare Intelligence. Multiplied.</text>
+  <text x="120" y="380" fill="#5C6468" font-family="Arial, sans-serif" font-size="30">Operational visibility, revenue protection, decision clarity.</text>
+</svg>
